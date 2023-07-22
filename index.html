@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" id="main-container">
+        <div class="input">
+            <h1 class="log">Sign Up</h1>
+            <label for="" class="label">Email:</label>
+            <input type="email" name="" id="email" placeholder="Enter Your Correct Email">
+            <label for="" class="label">Password:</label>
+            <input type="password" name="" id="password" placeholder="Enter Your Correct Password">
+            <a href="login.html">Already Have a Account</a>
+        </div>
+        <!-- <a href="login.html" id="log">Sign Up</a> -->
+        <button id="sign-up">Sign up</button>
+    </div>
+    <div style="display: none;" id="todo_div">
+        <h1 class="todohead">Todo App</h1>
+        <div class="inputsheaddiv">
+            <input type="text " class="w-100" placeholder="Enter Todo" id="todoInput">
+            <button class="btn btn-success mt-4" id="AddTodo_btn">Add Task</button>
+            <button class="btn btn-danger mt-4" id="DelTodo_btn">Delete All</button>
+        </div>
+    
+        <ul class="ulparent" id="ulParent">
+    
+        </ul>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
